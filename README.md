@@ -1,36 +1,83 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Projeto Next.js - Loja Fake
 
-## Getting Started
+Este é um projeto criado com [Next.js](https://nextjs.org), usando o template oficial [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
-First, run the development server:
+## 🚀 Começando
+
+Para rodar a aplicação localmente, siga os passos:
+
+1. Clone este repositório:
 
 ```bash
+git clone https://github.com/seuusuario/seurepositorio.git
+cd seurepositorio
+Instale as dependências:
+
+bash
+Copiar
+Editar
+npm install
+# ou
+yarn install
+# ou
+pnpm install
+Inicie o servidor de desenvolvimento:
+
+bash
+Copiar
+Editar
 npm run dev
-# or
+# ou
 yarn dev
-# or
+# ou
 pnpm dev
-# or
-bun dev
-```
+Abra seu navegador em http://localhost:3000 para ver a aplicação rodando.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+✍️ Estrutura do projeto
+/app — Contém as rotas e páginas da aplicação (App Router do Next.js 13).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+/public — Arquivos estáticos como imagens, favicon, etc.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+/styles — Arquivos CSS e estilos globais.
 
-## Learn More
+Outros arquivos de configuração do Next.js e TypeScript.
 
-To learn more about Next.js, take a look at the following resources:
+🛠️ Tecnologias utilizadas
+Next.js — Framework React para SSR e SSG.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+React — Biblioteca para UI.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+TypeScript — Tipagem estática para JavaScript.
 
-## Deploy on Vercel
+Tailwind CSS (opcional) — Framework CSS utilitário para estilização rápida.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+📚 Mais informações
+O projeto utiliza next/font para otimizar o carregamento da fonte Geist.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Dados dos produtos são carregados via API pública Fake Store API.
+
+☁️ Deploy
+Este projeto pode ser facilmente publicado na plataforma Vercel, que oferece suporte nativo a Next.js.
+
+Para fazer o deploy:
+
+Faça o push do seu código para um repositório remoto (GitHub, GitLab ou Bitbucket).
+
+Acesse Vercel e conecte sua conta.
+
+Importe seu projeto.
+
+Configure se necessário e clique em Deploy.
+
+Sua aplicação estará disponível em uma URL pública automaticamente.
+
+Para mais detalhes, confira a documentação oficial do Next.js sobre deploy:
+Deploy no Next.js
+
+🙋‍♂️ Suporte e contribuição
+Se você tiver dúvidas, sugestões ou quiser contribuir, fique à vontade para abrir uma issue ou pull request no repositório.
+
+📄 Licença
+Este projeto está licenciado sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
+
+Obrigado por usar este projeto! 🚀
