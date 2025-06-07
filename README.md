@@ -6,78 +6,76 @@ Este é um projeto criado com [Next.js](https://nextjs.org), usando o template o
 
 Para rodar a aplicação localmente, siga os passos:
 
-1. Clone este repositório:
+## 1. Clone este repositório:
 
-```bash
 git clone https://github.com/seuusuario/seurepositorio.git
 cd seurepositorio
-Instale as dependências:
 
-bash
-Copiar
-Editar
+
+## 2. Instale as dependências:
+
 npm install
 # ou
 yarn install
 # ou
 pnpm install
-Inicie o servidor de desenvolvimento:
 
-bash
-Copiar
-Editar
+## 3. Inicie o servidor de desenvolvimento:
+
 npm run dev
-# ou
+### ou
 yarn dev
-# ou
+### ou
 pnpm dev
-Abra seu navegador em http://localhost:3000 para ver a aplicação rodando.
 
-✍️ Estrutura do projeto
-/app — Contém as rotas e páginas da aplicação (App Router do Next.js 13).
+## 4. Abra seu navegador em http://localhost:3000 para ver a aplicação rodando.
 
-/public — Arquivos estáticos como imagens, favicon, etc.
+# ✍️ Estrutura do projeto
+- /app — Contém as rotas e páginas da aplicação (App Router do Next.js 13).
 
-/styles — Arquivos CSS e estilos globais.
+- /public — Arquivos estáticos como imagens, favicon, etc.
 
-Outros arquivos de configuração do Next.js e TypeScript.
+- /styles — Arquivos CSS e estilos globais.
 
-🛠️ Tecnologias utilizadas
-Next.js — Framework React para SSR e SSG.
+- Outros arquivos de configuração do Next.js e TypeScript.
 
-React — Biblioteca para UI.
+# 🛠️ Tecnologias utilizadas
 
-TypeScript — Tipagem estática para JavaScript.
+- Next.js — Framework React para SSR e SSG.
 
-Tailwind CSS (opcional) — Framework CSS utilitário para estilização rápida.
+- React — Biblioteca para UI.
 
-📚 Mais informações
-O projeto utiliza next/font para otimizar o carregamento da fonte Geist.
+- TypeScript — Tipagem estática para JavaScript.
 
-Dados dos produtos são carregados via API pública Fake Store API.
+- Tailwind CSS (opcional) — Framework CSS utilitário para estilização rápida.
 
-☁️ Deploy
+# 📚 Mais informações
+- O projeto utiliza next/font para otimizar o carregamento da fonte Geist.
+
+- Dados dos produtos são carregados via API pública Fake Store API.
+
+# ☁️ Deploy
 Este projeto pode ser facilmente publicado na plataforma Vercel, que oferece suporte nativo a Next.js.
 
 Para fazer o deploy:
 
-Faça o push do seu código para um repositório remoto (GitHub, GitLab ou Bitbucket).
+1. Faça o push do seu código para um repositório remoto (GitHub, GitLab ou Bitbucket).
 
-Acesse Vercel e conecte sua conta.
+2. Acesse Vercel e conecte sua conta.
 
-Importe seu projeto.
+3. Importe seu projeto.
 
-Configure se necessário e clique em Deploy.
+4. Configure se necessário e clique em Deploy.
 
-Sua aplicação estará disponível em uma URL pública automaticamente.
+5. Sua aplicação estará disponível em uma URL pública automaticamente.
 
 Para mais detalhes, confira a documentação oficial do Next.js sobre deploy:
 Deploy no Next.js
 
-🙋‍♂️ Suporte e contribuição
+# 🙋‍♂️ Suporte e contribuição
 Se você tiver dúvidas, sugestões ou quiser contribuir, fique à vontade para abrir uma issue ou pull request no repositório.
 
-📄 Licença
+# 📄 Licença
 Este projeto está licenciado sob a licença MIT — veja o arquivo LICENSE para mais detalhes.
 
 Obrigado por usar este projeto! 🚀
