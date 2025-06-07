@@ -1,8 +1,25 @@
-# Projeto Next.js - Loja Fake
+# Projeto Next.js - Loja Fake (Projeto de Estudo)
 
-Este é um projeto criado com [Next.js](https://nextjs.org), usando o template oficial [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+Este é um projeto de estudo desenvolvido com [Next.js](https://nextjs.org) para praticar conceitos de React, SSR, rotas dinâmicas e consumo de API. A aplicação simula uma loja online simples, consumindo dados de produtos de uma API pública.
 
-## 🚀 Começando
+
+## 🚀 Sobre o projeto
+
+- Projeto focado em aprendizado prático com Next.js 13 (App Router).
+- Consumo de API pública [Fake Store API](https://fakestoreapi.com), que fornece dados reais de produtos.
+- Implementação de rotas dinâmicas para exibir detalhes de cada produto.
+- Uso de renderização no servidor (SSR) para buscar dados antes de entregar a página.
+- Geração dinâmica de metadados para melhorar SEO com base no conteúdo do produto.
+
+## ⚙️ Tecnologias utilizadas
+
+- [Next.js](https://nextjs.org) — Framework React para SSR e SSG.
+- [React](https://reactjs.org) — Biblioteca para construção da interface.
+- [TypeScript](https://www.typescriptlang.org) — Para tipagem estática e maior segurança no código.
+- [Tailwind CSS](https://tailwindcss.com) (opcional) — Framework para estilização rápida e responsiva.
+- Consumo de API REST pública para dados dinâmicos.
+
+## 💻 Começando
 
 Para rodar a aplicação localmente, siga os passos:
 
@@ -10,7 +27,6 @@ Para rodar a aplicação localmente, siga os passos:
 
 git clone https://github.com/seuusuario/seurepositorio.git
 cd seurepositorio
-
 
 ## 2. Instale as dependências:
 
